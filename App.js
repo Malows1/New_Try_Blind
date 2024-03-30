@@ -23,9 +23,9 @@ function HomeScreen({ navigation }) {
 const Stack = createStackNavigator();
 
 const App = () => {
-  // Generating blinds structure using the functions from BlindsGenerator
-  const gameTime = 1800; // 30 minutes in seconds
-  const raiseBlindTime = 180; // 3 minutes in seconds
+  
+  const gameTime = 1800; 
+  const raiseBlindTime = 180; 
   const blindsStructure = generateBlindsStructure(gameTime, raiseBlindTime);
 
   return (
